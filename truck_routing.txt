@@ -1,0 +1,31 @@
+GIS Routing ->
+* ArcGIS Online
+* Oracle Spatial NDM (Network Data Model)
+* Google Maps
+* MapQuest
+* AnyLogic
+* Map24/NavTeq
+* routesmart
+* pgRouting -- pgRouting extends the PostGIS / PostgreSQL geospatial database to provide geospatial routing functionality
+
+LRS versus step by step driving directions
+
+- Admin panel
+ -- extract info from each permit
+STEP 1: -- create driving directions
+STEP 2: -- upload directions to GPS
+
+US-59, Atchison, KS, USA
+KS-4, Nortonville, KS, USA
+US-24, Soldier, KS
+US-75 South,
+I-70 West
+I-135 South
+US-81 Bus West
+US-56 West
+US-183 South
+US-50 West
+US-283 West
+US-54 West
+
+https://maps.googleapis.com/maps/api/directions/json?origin=US-59,%20Atchison,%20Kansas&destination=US-54 West&waypoints=via:KS-4|via:US-24|via:US-75 South|via:I-70 West|via:I-135 South|via:US-81 Bus West|via:US-56 West|via:US-183 South|via:US-50 West|via:US-283 West&key=AIzaSyCHiPI792MjaPDva6anoMEeNWRYXrHesX8
